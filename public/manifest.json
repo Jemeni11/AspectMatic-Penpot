@@ -1,0 +1,9 @@
+{
+  "name": "AspectMatic",
+  "description": "The Penpot plugin that helps developers with aspect ratio calculations.",
+  "author": "Emmanuel C. Jemeni",
+  "license": "GPL-3.0-only",
+  "code": "/plugin.js",
+  "icon": "/icon.png",
+  "permissions": ["content:read"]
+}
