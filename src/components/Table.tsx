@@ -1,9 +1,25 @@
 import { CopySVG } from "../svg-icons";
-import type { HistoryAspectRatio } from "../types";
+import type { HistoryAspectRatio } from "../types";
 
-function sendClipboardCopy(content: string) {
-  parent.postMessage({ type: "COPY_TO_CLIPBOARD", content }, "*");
+function sendClipboardCopy(text: string) {
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.classList.add("sr-only");
+    document.body.appendChild(textarea);
+
+    textarea.select();
+    document.execCommand("copy");
+
+    document.body.removeChild(textarea);
+
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
+  }
 }
+
 
 interface TableProps {
   headers: string[];
