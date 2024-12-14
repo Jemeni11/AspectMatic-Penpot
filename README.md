@@ -1,4 +1,4 @@
-![Cover](https://github.com/user-attachments/assets/b38c3525-13d9-4d29-be8b-bfc2f7b141ce)
+![Cover](https://raw.githubusercontent.com/Jemeni11/hosting-pics/refs/heads/main/The%20Penpot%20plugin%20that%20helps%20developers%20with%20aspect%20ratio%20calculations._20241214_191602_0000.png)
 
 # AspectMatic
 
