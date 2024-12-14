@@ -17,6 +17,7 @@ export default function HistoryModal({
 
   return (
     <Fragment>
+      <div className="hidden sr-only">
       <Drawer.Root>
         <Drawer.Trigger>
           {history.length === 0 ? (
@@ -71,6 +72,7 @@ export default function HistoryModal({
           <Drawer.Overlay />
         </Drawer.Portal>
       </Drawer.Root>
+          </div>
     </Fragment>
   );
 }
