@@ -10,7 +10,24 @@ I built this plugin after learning about the CSS `aspect-ratio` property and get
 
 ## Installation
 
-Copy this [URL](https://aspectmatic-penpot.netlify.app/manifest.json), open penpot, use command `Ctrl + Alt + P` to open the plugin manager and paste the URL in the text field.
+1. **Copy the Plugin Manifest URL**  
+   Click the link below to copy the manifest URL:  
+   [AspectMatic Manifest URL](https://aspectmatic-penpot.netlify.app/manifest.json)  
+
+2. **Open the Plugin Manager in Penpot**  
+   - Use the keyboard shortcut: **Ctrl + Alt + P** (or **Cmd + Alt + P** on macOS).  
+   - Alternatively, navigate to the **Plugins** section via the main menu.  
+
+3. **Install the Plugin**  
+   - Paste the copied URL into the text field in the Plugin Manager.  
+   - Press **Enter** or click **Install**.  
+
+4. **Verify Installation**  
+   - Confirm that "AspectMatic" appears in your list of installed plugins.  
+
+### Troubleshooting
+- If you don’t see the Plugin Manager, ensure you’re using an up-to-date version of Penpot.  
+- For self-hosted Penpot instances, check with your administrator to enable plugins.
 
 ## Features
 
