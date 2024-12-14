@@ -60,9 +60,24 @@ export default function App() {
     parent.postMessage({ type: "CLOSE_UI" }, "*");
   }
 
-  function sendClipboardCopy(content: string) {
-    parent.postMessage({ type: "COPY_TO_CLIPBOARD", content }, "*");
+  function sendClipboardCopy(text: string) {
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.classList.add("sr-only");
+    document.body.appendChild(textarea);
+
+    textarea.select();
+    document.execCommand("copy");
+
+    document.body.removeChild(textarea);
+
+    return true;
+  } catch (err) {
+    console.error(err);
+    return false;
   }
+}
 
   const copyToClipboardHandler = useCallback(
     (index: number) => {
