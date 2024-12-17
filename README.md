@@ -4,6 +4,10 @@
 
 The Penpot plugin that helps developers with aspect ratio calculations.
 
+> [!NOTE]
+>
+> Do you use Figma instead? Well, there's a [Figma version](https://github.com/Jemeni11/AspectMatic) too!
+
 ## Introduction
 
 I built this plugin after learning about the CSS `aspect-ratio` property and getting tired of doing aspect ratio calculations manually. With AspectMatic, you can calculate aspect ratios instantly and format them in multiple ways.
